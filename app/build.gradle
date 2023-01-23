@@ -13,8 +13,6 @@ dependencies {
     implementation project(':utilities')
 }
 
-azureFunctionsPackage.dependsOn("jar")
-
 azurefunctions {
     appName = "AzureFnapp"
 }
